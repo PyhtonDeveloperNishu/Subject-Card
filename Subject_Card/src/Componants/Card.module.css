@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-back-school-background_23-2149464866.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .heading{
+    font-size: 30px;
+    filter: drop-shadow(5px 5px 30px rgb(236, 7, 34));
+    font-weight: bold;
+    color: rgb(108, 16, 65);
+  }
+
+  /* Form container */
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  /* Row and Column Layout */
+  .row {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .col {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .col:last-child {
+    margin-right: 0;
+  }
+
+  /* Form input styling */
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  /* Submit button styling */
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #4563a0;
+  }
+
