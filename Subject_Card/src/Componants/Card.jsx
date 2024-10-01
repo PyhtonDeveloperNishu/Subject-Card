@@ -91,8 +91,8 @@ const Card = () => {
 
       {planner.map((data, index) => {
         return (
-          <div key={`card_${index}`}>
-            {data.subject} - {data.hours} hours
+          <div key={`card_${index}`}  className={styles.card}>
+            {data.subject}  -  {data.hours} hours
             <button
               className={styles.btnplus}
               onClick={() => {

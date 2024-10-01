@@ -60,8 +60,27 @@ body {
     border-radius: 10px;
     cursor: pointer;
   }
-
-  button:hover {
-    background-color: #4563a0;
+  .btnminus{
+    background-color: #FF0000;
+    margin-left: 15px;
+    
   }
+  .btnplus{
+    background-color: #008000;
+    margin-left: 5px;
+  }
+
+  .btn:hover{
+    background-color: #3e8e41;
+  }
+
+  .card{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+  }
+
+  
 
